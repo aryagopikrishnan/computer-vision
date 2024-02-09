@@ -225,17 +225,7 @@ def predict_linear_classifier(W: torch.Tensor, X: torch.Tensor):
 
 
 def svm_get_search_params():
-    """
-    Return candidate hyperparameters for the SVM model. You should provide
-    at least two param for each, and total grid search combinations
-    should be less than 25.
-
-    Returns:
-    - learning_rates: learning rate candidates, e.g. [1e-3, 1e-2, ...]
-    - regularization_strengths: regularization strengths candidates
-                                e.g. [1e0, 1e1, ...]
-    """
-
+    
     learning_rates = []
     regularization_strengths = []
 
